@@ -3,4 +3,10 @@ body {
   grid-template-rows: auto 1fr auto;
   margin: 0; }
 
+header {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  height: 100px;
+}
 /*# sourceMappingURL=main.css.map */
