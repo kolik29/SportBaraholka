@@ -37,13 +37,15 @@ header li {
   color: white;
 }
 
-.search {
-  cursor: pointer;
+.search { 
   display: flex;
   width: auto;
   min-width: 200px;
   height: 30px;
   background-color: white; 
   border-radius: 10px;
+  border-style: none;
+  outline: none;
+  padding-left: 10px;
 }
 /*# sourceMappingURL=main.css.map */
