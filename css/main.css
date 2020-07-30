@@ -3,7 +3,9 @@ body {
   max-width: 100wh;
   grid-template-rows: auto 1fr auto;
   margin: 0;
-  min-height: 100vh; }
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
 
 footer {
   background: #3498DB;
@@ -28,13 +30,26 @@ header {
 
 .logo {
   color: white;
+  font-size: 25px;
+  font-weight: 600;
 }
- 
-header li {
+
+.categories {
   display: flex;
   flex-direction: row;
   color: white;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 14px; 
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 14px;
 }
+
+.categories ul {
+  margin-right: 8px;
+  margin-left: 8px;
+} 
 
 .search { 
   display: flex;
@@ -46,5 +61,6 @@ header li {
   border-style: none;
   outline: none;
   padding-left: 10px;
+  padding-right: 10px;
 }
 /*# sourceMappingURL=main.css.map */
