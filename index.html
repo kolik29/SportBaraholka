@@ -9,8 +9,14 @@
 
 	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all-min.css">
+    <link rel="stylesheet" href="css/mainbody.css">
+    <link rel="stylesheet" href="css/util.css">
 </head>
 <body>
+
+
 	<header class="container">
 		<div class="logo">
 			EcoSport
@@ -24,7 +30,104 @@
 		<input class="search" placeholder="Поиск"></input>
 		<a><img src="img/Shopping Bag.png" width="24" height="24"></a>
 	</header>
-	<main class="container"></main>
+	<main class="container">
+
+		<section class="slide1">
+			<div class="wrap-slick1">
+				<div class="slick1">
+					<div class="item-slick1 item2-slick1" style="background-image: url(https://findesk.ru/upload/iblock/48c/48c3aa1d36de237670ba2bb18aa4dab2.jpg);">
+						<div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">Cкидки</div>
+					</div>
+		
+					<div class="item-slick1 item3-slick1" style="background-image: url(https://cdn.fishki.net/upload/post/201408/06/1291328/1_beg.jpg);">
+						<div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="banner bgwhite p-t-40 p-b-40">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8 col-md-8 col-lg-4 m-l-r-auto">
+						<div class="block1 hov-img-zoom pos-relative m-b-30">
+							<img src="https://i02.fotocdn.net/s114/63cd474ef1593dcf/public_pin_l/2572477313.jpg" alt="IMG-BENNER" />
+		
+							<div class="block1-wrapbtn w-size2">
+								<a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4" style="text-align: center;">
+									Cпортивные коврики
+								</a>
+							</div>
+						</div>
+					</div>
+		
+					<div class="col-sm-8 col-md-8 col-lg-4 m-l-r-auto">
+						<div class="block1 hov-img-zoom pos-relative m-b-30">
+							<img src="https://static.tildacdn.com/tild3065-3838-4765-a137-383437316132/1.jpg" alt="IMG-BENNER" />
+		
+							<div class="block1-wrapbtn w-size2">
+								<a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
+									Кросовки
+								</a>
+							</div>
+						</div>
+					</div>
+		
+					<div class="col-sm-8 col-md-8 col-lg-4 m-l-r-auto">
+						<div class="block1 hov-img-zoom pos-relative m-b-30">
+							<img src="https://img2.goodfon.ru/original/9000x6006/c/26/weight-lifting-training.jpg" alt="IMG-BENNER" />
+		
+							<div class="block1-wrapbtn w-size2">
+								<a href="{{ url_for('macarons') }}" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
+									Штанги, гантели
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="shipping bgwhite p-t-62 p-b-46">
+			<div class="flex-w p-l-15 p-r-15">
+				<div class="flex-col-c w-size5 p-l-15 p-r-15 p-t-16 p-b-15 respon1">
+					<h4 class="m-text12 t-center">
+						Бесплатная доставка от 3500₽
+					</h4>
+		
+					<a href="{{ url_for('delivery') }}" class="s-text11 t-center">
+						Узнать больше >
+					</a>
+				</div>
+		
+				<div class="flex-col-c w-size5 p-l-15 p-r-15 p-t-16 p-b-15 bo2 respon2">
+					<h4 class="m-text12 t-center">
+						Сделайте Вашу жизнь чуточку слаще
+					</h4>
+		
+					<span class="s-text11 t-center">
+						с любимыми десертами.
+					</span>
+				</div>
+		
+				<div class="flex-col-c w-size5 p-l-15 p-r-15 p-t-16 p-b-15 respon1">
+					<h4 class="m-text12 t-center">
+						Скидка 10%
+					</h4>
+		
+					<span class="s-text11 t-center">
+						на каждый третий заказ
+					</span>
+				</div>
+			</div>
+		</section>
+		
+		<script src="js/all-min.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/slick-custom.js"></script>
+		
+	</main>
+	
 	<footer class="container">
 		<div class="social">
 			<a href="https://www.instagram.com/"><img src="img/social/instagram.png" width="20" height="20"></a>

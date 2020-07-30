@@ -9,7 +9,7 @@ body {
 
 footer {
   background: #FFD66E;
-  padding: 40px 20px 20px 20px;
+  padding: 60px 20px 20px 20px;
   display: flex;
   justify-content: center; }
   footer .social {
@@ -72,7 +72,6 @@ header {
   padding-left: 10px;
   padding-right: 10px;
   margin-right: 20px;
-  margin-left: 20px;
 }
 
 .container {
